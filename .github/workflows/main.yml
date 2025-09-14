@@ -27,7 +27,7 @@ jobs:
           client-id: 11ab306b-8fb0-4d7c-af48-b1668e4e0425
           tenant-id: a0b91e36-516f-4b1d-8d58-feb227b32a8d
           subscription-id: 47f00bc6-c0a2-4ef3-8447-b76762fcc0ce
-          auth-type: oidc
+          auth-type: id-token
 
       - name: Log in to ACR
         run: |
